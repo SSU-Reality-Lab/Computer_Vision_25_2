@@ -334,7 +334,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     root = tk.Tk()
-    root.title('Cornell CS 5670 - Hybrid Images Project')
+    root.title('Hybrid Images Project')
     
     # Adjust window size to be reasonable
     w = int(root.winfo_screenwidth() * 0.8)
