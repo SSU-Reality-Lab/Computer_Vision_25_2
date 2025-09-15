@@ -9,12 +9,10 @@ import os
 import argparse
 import threading
 
-# 헬퍼 함수 (이전 uiutils.py의 일부)
 def error(message):
     """오류 메시지 박스를 띄우는 함수"""
     messagebox.showerror("Error", message)
 
-# 헬퍼 클래스 (이전 uiutils.py의 일부)
 class BaseFrame(tk.Frame):
     """모든 프레임의 기반이 되는 클래스"""
     def __init__(self, parent, root, *args, **kwargs):
@@ -93,7 +91,6 @@ class ClickableImageWidget(ImageWidget):
             return self.clicked_points.pop()
         return None
 
-# --- 원래 gui.py의 메인 애플리케이션 클래스들 ---
 
 class ImageAlignmentFrame(BaseFrame):
     def __init__(self, parent, root, template_file=None):

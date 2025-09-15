@@ -70,10 +70,14 @@
     양쪽 이미지에 3개의 점을 모두 찍었다면 `View Hybrid` 버튼을 클릭하여 결과물을 확인합니다. 'View Hybrid' 탭에서 필터 강도(Sigma), 커널 크기(Kernel Size) 등을 조절하며 결과가 어떻게 변하는지 관찰해보세요.
     -  ![project_gui](./resources/result.png)
 
+## 퀴즈
+아래 문제를 pdf 한 페이지로 정리해서 output에 집어 넣으세요. 
+- 왜 세 개의 점을 각각 왼쪽 이미지와 오른쪽 이미지에서 찍어야할까요? gui.py의 getAffineTransform 함수와 관련지어 설명하세요. (참고 자료 : https://angeloyeo.github.io/2024/06/28/Affine_Transformation.htm )
 
 ##  과제 제출
 - 본 reop를 본인 컴퓨터에 pull하시고 hybrid.py 내 함수를 구현하세요.
 - 그 다음 output 폴더 하나를 생성하시고 실습한 hybird image gui 화면를 한 장 첨부하세요.
+- 퀴즈를 풀고 output 폴더에 첨부하세요.
 - push를 하면 자동으로 과제가 제출됩니다.
 
 ## 🚨 **주의사항**
